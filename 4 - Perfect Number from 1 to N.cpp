@@ -1,5 +1,4 @@
-// Perfect Number
-// perfect Number = all Sum(divisors)
+// Perfect Number from 1 to N
 
 #include <iostream>
 #include <cmath>
