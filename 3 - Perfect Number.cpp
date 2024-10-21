@@ -6,39 +6,39 @@
 #include <string>
 using namespace std;
 
-
-int CheckPositiveNumber (string Message)
+int CheckPositiveNumber(string Mseeage)
 {
 	int Number = 0;
+
 	do
 	{
-		cout << Message;
-		cin  >> Number;
+		cout << Mseeage;
+		cin >> Number;
 	} while (Number <= 0);
+
 	return Number;
 }
-
-bool IsPerfectNumber(int Num)
+bool IsPrimeNum(int Number)
 {
 	int Sum = 0;
-	for (int i = 1 ; i < Num; i++)
+	for (int i = 1; i < Number; i++)
 	{
-		if (Num % i == 0)
-			Sum += i;
+		if (Number % i == 0)
+			Sum = Sum + i;
 	}
-	return Num == Sum;
+	return Number == Sum;
 }
 
-void PrintResult(int Number)
+void PrintCheckPrame(int Number)
 {
-	if (IsPerfectNumber(Number))
-		cout <<"The " << Number << " Is Perfect Number .\n";
-	else 
-		cout << Number << " Is Not Perfect Number .\n";
+	if (IsPrimeNum(Number))
+		cout << "The " << Number << " Is A Perfect Number" << endl;
+	else
+		cout << "The " << Number << " Is A Not Perfect Number" << endl;
 }
 
 int main()
 {
-	PrintResult(CheckPositiveNumber("Enter a positive Number : "));
+	PrintCheckPrame(CheckPositiveNumber("Enter Positive Number : "));
 	return 0;
 }
