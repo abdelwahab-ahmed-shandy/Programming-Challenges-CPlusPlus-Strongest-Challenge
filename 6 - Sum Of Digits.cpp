@@ -14,7 +14,7 @@ int CheckPositiveNumber(string Message)
 	return PositiveNumber;
 }
 
-void DigitsNumber(int Number)
+void SumDigitsNumber (int Number)
 {
 	int Sum = 0;
 	int Remainder = 0;
@@ -30,6 +30,6 @@ void DigitsNumber(int Number)
 
 int main()
 {
-	DigitsNumber(CheckPositiveNumber("Enter Positive Number : "));
+	SumDigitsNumber(CheckPositiveNumber("Enter Positive Number : "));
 	return 0;
 }
