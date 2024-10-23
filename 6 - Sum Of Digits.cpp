@@ -25,7 +25,7 @@ void DigitsNumber(int Number)
 		Number = Number / 10;
 
 	}
-	cout << Sum;
+	cout <<"The Sum of Digits : "<< Sum;
 }
 
 int main()
