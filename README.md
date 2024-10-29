@@ -30,3 +30,9 @@ The repository is organized as follows:
 1. Clone this repository:
    ```bash
    git clone https://github.com/abdelwahab-shandy/Programming-Challenges-CPlusPlus-Strongest-Challenge.git
+
+## Contributing
+Contributions are welcome! If you would like to contribute a new challenge or improve an existing solution, feel free to open a pull request. Make sure to include clear documentation for any new challenges or modifications.
+
+## License
+This project is licensed under the MIT License.
