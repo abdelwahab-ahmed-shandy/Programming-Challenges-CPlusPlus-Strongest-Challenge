@@ -1,4 +1,4 @@
-# Programming Challenges in C++ - Strongest Challenge 💪
+# Programming Challenges in C++ - Strongest Challenge 
 
 ## Overview
 Welcome to the **Programming Challenges in C++ - Strongest Challenge** repository! This project contains a collection of advanced C++ programming challenges designed to enhance problem-solving skills and deepen understanding of algorithms and data structures.
@@ -10,6 +10,7 @@ Welcome to the **Programming Challenges in C++ - Strongest Challenge** repositor
 - [How to Use](#how-to-use)
 - [Contributing](#contributing)
 - [License](#license)
+- [Contact](#contact)
 
 ## Challenges Covered
 This repository includes various challenges that focus on:
@@ -36,3 +37,10 @@ Contributions are welcome! If you would like to contribute a new challenge or im
 
 ## License
 This project is licensed under the MIT License.
+
+## Contact
+Abdelwahab Shandy - [LinkedIn](https://www.linkedin.com/in/abdelwahab-shandy/)
+
+Abdelwahab Shandy - [Medium](https://medium.com/@abdelwahabshandy)
+
+Project Link: [Programming-Challenges-CPlusPlus-Flowcharts](https://github.com/abdelwahab-shandy/Programming-Challenges-CPlusPlus-Flowcharts)
