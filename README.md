@@ -1,4 +1,7 @@
 # Programming Challenges in C++ - Strongest Challenge 
+![License](https://img.shields.io/github/license/abdelwahab-shandy/Programming-Challenges-CPlusPlus-Strongest-Challenge)
+![Issues](https://img.shields.io/github/issues/abdelwahab-shandy/Programming-Challenges-CPlusPlus-Strongest-Challenge)
+![Stars](https://img.shields.io/github/stars/abdelwahab-shandy/Programming-Challenges-CPlusPlus-Strongest-Challenge)
 
 ## Overview
 Welcome to the **Programming Challenges in C++ - Strongest Challenge** repository! This project contains a collection of advanced C++ programming challenges designed to enhance problem-solving skills and deepen understanding of algorithms and data structures.
