@@ -38,8 +38,7 @@ Contributions are welcome! If you would like to contribute a new challenge or im
 ## License
 This project is licensed under the MIT License.
 
-## Contact
-Abdelwahab Shandy - [LinkedIn](https://www.linkedin.com/in/abdelwahab-shandy/)
-
-Abdelwahab Shandy - [Medium](https://medium.com/@abdelwahabshandy)
-
+## 📫 Connect with Me
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/abdelwahab-shandy/)
+[![Medium](https://img.shields.io/badge/-Medium-00AB6C?logo=medium&logoColor=white)](https://medium.com/@abdelwahabshandy)
+[![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white)](https://github.com/abdelwahab-shandy)
