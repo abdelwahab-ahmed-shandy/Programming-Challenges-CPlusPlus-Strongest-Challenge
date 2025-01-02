@@ -1,7 +1,7 @@
 /*
 
 Problem_04 >> Write a Program to print all perfect numbers from 1 to N.
-input>> 
+input>>
 500
 
 output>>
@@ -15,37 +15,36 @@ output>>
 using namespace std;
 int ReadPositiveNumber(string Message)
 {
-int Number = 0;
-do
-{
-cout << Message << endl;
-cin >> Number;
-} while (Number <= 0);
-return Number;
+	int Number = 0;
+	do
+	{
+		cout << Message << endl;
+		cin >> Number;
+	} while (Number <= 0);
+	return Number;
 }
 bool isPerfectNumber(int Number)
 {
-int Sum = 0;
-for (int i = 1; i < Number; i++)
-{
-if (Number % i == 0)
-Sum += i;
-}
-return Number == Sum;
+	int Sum = 0;
+	for (int i = 1; i < Number; i++)
+	{
+		if (Number % i == 0)
+			Sum += i;
+	}
+	return Number == Sum;
 }
 void PrintPerfectNumbersFrom1ToN(int Number)
 {
-for (int i = 1; i <= Number; i++)
-{
-if (isPerfectNumber(i))
+	for (int i = 1; i <= Number; i++)
 	{
-		cout << i << endl;
+		if (isPerfectNumber(i))
+		{
+			cout << i << endl;
+		}
 	}
-}
 }
 int main()
 {
-PrintPerfectNumbersFrom1ToN(ReadPositiveNumber("Please enter a
-positive number?"));
-return 0;
+	PrintPerfectNumbersFrom1ToN(ReadPositiveNumber("Please enter a positive number ? "));
+		return 0;
 }
