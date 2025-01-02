@@ -1,5 +1,19 @@
-// Perfect Number
-// perfect Number = all Sum(divisors)
+/*
+
+Problem_03 >> Write a Program to Check if the number is Perfect Number or Not ?
+note : perfect Number = all Sum(divisors)
+28 = 1 + 2 + 4 + 7 + 14 
+6 = 1 + 2 + 3
+
+input>> 
+28
+12
+
+output>>
+28 is Perfect Number
+12 is Not Perfect Number
+
+*/
 
 #include <iostream>
 #include <cmath>
