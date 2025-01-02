@@ -1,36 +1,51 @@
-// Print Digits in a Reversed Order
+/*
 
+Problem_04 >> Write a Program to print all perfect numbers from 1 to N.
+input>> 
+500
+
+output>>
+6
+28
+496
+
+*/
 #include <iostream>
-#include <cmath>
 #include <string>
 using namespace std;
-
-int CheckPositiveNumber()
+int ReadPositiveNumber(string Message)
 {
-	int Number;
-
-	do
-	{
-		cout << "Enter a positive number : ";
-		cin >> Number;
-	} while (Number <= 0);
-	return Number;
+int Number = 0;
+do
+{
+cout << Message << endl;
+cin >> Number;
+} while (Number <= 0);
+return Number;
 }
-
-void DigitsNumber(int Number)
+bool isPerfectNumber(int Number)
 {
-	int Remainder = 0;
-	while (Number > 0)
+int Sum = 0;
+for (int i = 1; i < Number; i++)
+{
+if (Number % i == 0)
+Sum += i;
+}
+return Number == Sum;
+}
+void PrintPerfectNumbersFrom1ToN(int Number)
+{
+for (int i = 1; i <= Number; i++)
+{
+if (isPerfectNumber(i))
 	{
-		Remainder = Number % 10;
-		Number = Number / 10;
-		cout << Remainder  ; 
+		cout << i << endl;
 	}
 }
-
-
+}
 int main()
 {
-	DigitsNumber(CheckPositiveNumber());
-	return 0;
+PrintPerfectNumbersFrom1ToN(ReadPositiveNumber("Please enter a
+positive number?"));
+return 0;
 }
