@@ -1,6 +1,6 @@
 /*
 
-Problem_04 >> Write a Program to read a number a number and print it in a reversed order
+Problem_05 >> Write a Program to read a number a number and print it in a reversed order
 Print Digits in a Reverse Order
 input>> 
 1234
