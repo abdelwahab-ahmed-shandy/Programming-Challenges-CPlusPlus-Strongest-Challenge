@@ -1,4 +1,18 @@
-// Sum of Digits
+/*
+
+Problem_04 >> Write a Program to read a number a number and print it in a reversed order
+Print Digits in a Reverse Order
+input>> 
+1234
+
+output>>
+4
+3
+2
+1
+
+*/
+
 #include <iostream>
 #include<cmath>
 using namespace std;
