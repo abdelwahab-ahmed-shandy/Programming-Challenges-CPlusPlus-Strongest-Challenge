@@ -1,6 +1,17 @@
-// Palindrome Number
-// Palindrome is a number that reads the same from rigth to left.
+/*
+Problem_11 >> Write a Program to read a number and check if it is palindrome or not.
 
+Palindrome is a number that reads the same from rigth to left.
+Palindrome Number
+input>> 
+1234
+12341
+
+output>>
+No , it is Not Palindrome Number
+Yes , it is Palindrome Number
+
+*/
 #include <iostream>
 using namespace std;
 
