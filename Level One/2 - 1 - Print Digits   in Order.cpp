@@ -1,3 +1,17 @@
+/*
+Problem_10 >> Write a Program to read a digit and print it in order from left to right , 
+then print All frequency in that number.
+Print Didit in order 
+input>> 
+1234
+        
+output>>
+1
+2
+3
+4
+
+*/
 #include <iostream>
 #include <cmath>
 #include <string>
