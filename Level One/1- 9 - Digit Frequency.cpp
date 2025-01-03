@@ -1,5 +1,15 @@
-// Digit Frequency
+/*
+Problem_09 >> Write a Program to read a digit and a number , 
+then print All frequency in that number.
+All Didit Frequency 
+input>> 1223222
+        
+output>>
+Digit 1 frequency is 1 Times
+Digit 2 frequency is 5 Times
+Digit 3 frequency is 1 Times
 
+*/
 #include <iostream>
 using namespace std;
 int ReadPositiveNumber(string Message)
