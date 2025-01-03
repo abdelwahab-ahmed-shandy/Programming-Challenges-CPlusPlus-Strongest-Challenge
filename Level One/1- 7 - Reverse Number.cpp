@@ -1,37 +1,43 @@
-// Reverse Number
-#include <iostream>
-#include <cmath>
-using namespace std;
+/*
+Problem_07 >> Write a Program to read a number and print it reverse
+Reverse Number
+input>> 1234
 
-int CheckPositiveNumber(string Message)
+output>>4321
+
+*/
+
+#include <iostream>
+#include <string>
+using namespace std;
+int ReadPositiveNumber(string Message)
 {
-	int Number;
+	int Number = 0;
 	do
 	{
-		cout << Message;
-		cin  >> Number;
+		cout << Message << endl;
+		cin >> Number;
 	} while (Number <= 0);
 	return Number;
 }
-
-void ReverseNumber(int Num)
+int ReverseNumber(int Number)
 {
-	int Remainder = 0;
-	int Reverse = 0;
-
-	while (Num > 0)
+	int Remainder = 0, Number2 = 0;
+	while (Number > 0)
 	{
-		Remainder = Num % 10;
-		Reverse = Reverse * 10 + Remainder;
-		Num = Num / 10;
+		Remainder = Number % 10;
+		Number = Number / 10;
+		Number2 = Number2 * 10 + Remainder;
 	}
-
-	cout << "The Reverse Numbers : " << Reverse;
+	return Number2;
 }
-
+void PrintReverseNumber(int Number)
+{
+	cout << "Reverse Number is: " << Number << endl;
+}
 int main()
 {
-	ReverseNumber(CheckPositiveNumber("Enter A Positive Number : "));
+	PrintReverseNumber(ReverseNumber(ReadPositiveNumber("Enter a Positive Number: ")));
+
 	return 0;
 }
-
