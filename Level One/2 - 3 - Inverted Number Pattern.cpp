@@ -1,4 +1,19 @@
-// 12 - Inverted Number Pattern
+/*
+Problem_12 >> Write a Program to read a number and Print inverted pattern .
+
+Inverted Number Pattern
+
+input>> 
+3
+
+output>>
+55555
+5555
+555
+55
+5
+
+*/
 #include <iostream>
 using namespace std;
 
