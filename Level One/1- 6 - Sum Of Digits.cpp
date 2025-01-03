@@ -1,49 +1,43 @@
 /*
-
-Problem_05 >> Write a Program to read a number a number and print it in a reversed order
-Print Digits in a Reverse Order
-input>> 
-1234
+Problem_06 >> Write a Program to read a number and print the sum of its digits.
+Sum Of Digits 
+input>> 1234
 
 output>>
-4
-3
-2
-1
+Sum Of Digits : 10
 
 */
 
 #include <iostream>
-#include<cmath>
+#include <string>
 using namespace std;
-
-int CheckPositiveNumber(string Message)
+int ReadPositiveNumber(string Message)
 {
-	int PositiveNumber;
+	int Number = 0;
 	do
 	{
-		cout << Message;
-		cin >> PositiveNumber;
-	} while (PositiveNumber <=0);
-	return PositiveNumber;
+		cout << Message << endl;
+		cin >> Number;
+	} while (Number <= 0);
+	return Number;
 }
-
-void SumDigitsNumber (int Number)
+int SumOfDigits(int Number)
 {
-	int Sum = 0;
-	int Remainder = 0;
+	int Sum = 0, Remainder = 0;
 	while (Number > 0)
 	{
 		Remainder = Number % 10;
-		Sum += Remainder;
 		Number = Number / 10;
-
+		Sum = Sum + Remainder;
 	}
-	cout <<"The Sum of Digits : "<< Sum;
+	return Sum;
 }
-
+void PrintSumDigits(int Number)
+{
+	cout << "Sum of Digits = " << Number << endl;
+}
 int main()
 {
-	SumDigitsNumber(CheckPositiveNumber("Enter Positive Number : "));
+	PrintSumDigits(SumOfDigits(ReadPositiveNumber("Please enter a positive number ? ")));
 	return 0;
 }
